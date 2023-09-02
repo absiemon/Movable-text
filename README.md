@@ -1,8 +1,25 @@
-# React + Vite
+# Movable-text
+It is a web app that fetches an image from unsplash.com. We can add a movable text overlay by clicking on the add text button.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+1. Download project
+2. Download the required node packages using the npm install command:
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+$ npm install
+```
+3. Create a .env file in the client directory of the application and add the following variables:
+```bash
+JWT_SECRET_ACCESS=your-access-key of unsplash
+```
+4. Start the frontend by executing this command:
+```bash
+$ npm run dev
+```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
