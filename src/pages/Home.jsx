@@ -45,11 +45,12 @@ const Home = () => {
 
     // Deleting text overlay
     const deleteTextOverlay = (index) => {
+        console.log(index)
         const updatedOverlays = [...textOverlays];
         updatedOverlays.splice(index, 1);
         setTextOverlays(updatedOverlays);
     };
-
+  
 
     return (
         <>
